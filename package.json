@@ -5,7 +5,13 @@
   "repository": "https://github.com/userthiago/jstack-modulo-02.git",
   "author": "Thiago Santos",
   "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
